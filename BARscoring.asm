@@ -13,6 +13,7 @@ sw    $T0,0($SP)
 sw    $A3,4($SP)
 
 ;Get score memory address
+add   $A3,$ZERO,$ZERO
 lui   $A3,0x8036
 addi  $A3,$A3,0x3D68
 
